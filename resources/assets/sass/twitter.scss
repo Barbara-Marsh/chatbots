@@ -1,0 +1,36 @@
+@import "app";
+
+body.twitter {
+  /* IE10+ */
+  background-image: -ms-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #8CA6C0 100%);
+
+  /* Mozilla Firefox */
+  background-image: -moz-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #8CA6C0 100%);
+
+  /* Opera */
+  background-image: -o-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #8CA6C0 100%);
+
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(radial, center center, 0, center center, 286, color-stop(0, #FFFFFF), color-stop(100, #8CA6C0));
+
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #8CA6C0 100%);
+
+  /* W3C Markup */
+  background-image: radial-gradient(ellipse farthest-corner at center, #FFFFFF 0%, #8CA6C0 100%);
+
+  >div>.container {
+    background-color: rgba(255, 255, 255, .5);
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+}
+
+.logo {
+  text-align: left;
+  img {
+    width: 250px; height: 250px;
+    margin-top: 5px;
+    border: 1px solid #333;
+  }
+}

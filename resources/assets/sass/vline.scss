@@ -1,0 +1,58 @@
+@import "app";
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #fce9e8;
+  color: #170403;
+
+  hr {
+    border-top: 1px solid #170403;
+  }
+
+  .container {
+    width: 60%;
+    margin: 0 auto;
+
+    .header {
+      .header-figure {
+        max-width: 100%;
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+    .row {
+      .text-center {
+        p {
+          text-align: center;
+        }
+      }
+      .margin-top-10 {
+        margin-top: 10px;
+      }
+      ul {
+        list-style-image: url("../img/google-actions/vline/quotation-icon.png");
+      }
+    }
+    .logo {
+      text-align: left;
+      img {
+        width: 100%;
+        height: auto;
+        margin-top: 5px;
+        border: 1px solid #333;
+      }
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    .footer {
+      margin-top: 10px;
+      .float-right {
+        float: right;
+      }
+    }
+  }
+}
